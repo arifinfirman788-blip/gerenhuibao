@@ -22,8 +22,8 @@ export const MILESTONES: Milestone[] = [
     highlights: ["全链路交互优化", "文娱场景深度适配", "品牌视觉一致性"],
     icon: "Layout",
     images: [
-      { src: "/image/1-1.png", type: "mobile", caption: "文娱板块首页" },
-      { src: "/image/1-2.jpg", type: "mobile", caption: "活动详情页" }
+      { src: "image/1-1.png", type: "mobile", caption: "文娱板块首页" },
+      { src: "image/1-2.jpg", type: "mobile", caption: "活动详情页" }
     ]
   },
   {
@@ -33,8 +33,8 @@ export const MILESTONES: Milestone[] = [
     highlights: ["发布会技术支撑", "行程规划逻辑重构", "跨团队敏捷协作"],
     icon: "Rocket",
     images: [
-      { src: "/image/2-1.png", type: "mobile", caption: "行程规划入口" },
-      { src: "/image/2-2.png", type: "mobile", caption: "智能路线推荐" }
+      { src: "image/2-1.png", type: "mobile", caption: "行程规划入口" },
+      { src: "image/2-2.png", type: "mobile", caption: "智能路线推荐" }
     ]
   },
   {
@@ -44,9 +44,9 @@ export const MILESTONES: Milestone[] = [
     highlights: ["首页交互革新", "生态接口标准化", "多端兼容性设计"],
     icon: "Layers",
     images: [
-      { src: "/image/3-1.jpg", type: "mobile", caption: "新版首页" },
-      { src: "/image/3-2.png", type: "mobile", caption: "生态接入页" },
-      { src: "/image/3-3.png", type: "mobile", caption: "服务聚合中心" }
+      { src: "image/3-1.jpg", type: "mobile", caption: "新版首页" },
+      { src: "image/3-2.png", type: "mobile", caption: "生态接入页" },
+      { src: "image/3-3.png", type: "mobile", caption: "服务聚合中心" }
     ]
   },
   {
@@ -56,9 +56,9 @@ export const MILESTONES: Milestone[] = [
     highlights: ["数据资产闭环", "抖音小程序落地", "产品国际化视野"],
     icon: "Cpu",
     images: [
-      { src: "/image/4-1.jpg", type: "mobile", caption: "贵客荟数据看板" },
-      { src: "/image/4-2.jpg", type: "mobile", caption: "抖音小程序" },
-      { src: "/image/4-3.png", type: "mobile", caption: "多语言切换" }
+      { src: "image/4-1.jpg", type: "mobile", caption: "贵客荟数据看板" },
+      { src: "image/4-2.jpg", type: "mobile", caption: "抖音小程序" },
+      { src: "image/4-3.png", type: "mobile", caption: "多语言切换" }
     ]
   },
   {
@@ -68,9 +68,9 @@ export const MILESTONES: Milestone[] = [
     highlights: ["制度标准化建设", "人才全生命周期培养", "多线并发管理"],
     icon: "Users",
     images: [
-      { src: "/image/5-1.png", type: "pc", caption: "需求管理流程图" },
-      { src: "/image/5-2.jpg", type: "pc", caption: "团队分工架构" },
-      { src: "/image/5-3.png", type: "pc", caption: "项目进度看板" }
+      { src: "image/5-1.png", type: "pc", caption: "需求管理流程图" },
+      { src: "image/5-2.jpg", type: "pc", caption: "团队分工架构" },
+      { src: "image/5-3.png", type: "pc", caption: "项目进度看板" }
     ]
   },
   {
@@ -80,10 +80,10 @@ export const MILESTONES: Milestone[] = [
     highlights: ["AI智能体实践", "工作流降本增效", "经验规模化推行"],
     icon: "Trophy",
     images: [
-      { src: "/image/6-1.png", type: "pc", caption: "旅居智能体后台" },
-      { src: "/image/6-2.png", type: "mobile", caption: "AI导游对话界面" },
-      { src: "/image/6-3.png", type: "pc", caption: "效能分析报告" },
-      { src: "/image/6-4.png", type: "pc", caption: "智能体配置中心" }
+      { src: "image/6-1.png", type: "pc", caption: "旅居智能体后台" },
+      { src: "image/6-2.png", type: "mobile", caption: "AI导游对话界面" },
+      { src: "image/6-3.png", type: "pc", caption: "效能分析报告" },
+      { src: "image/6-4.png", type: "pc", caption: "智能体配置中心" }
     ]
   }
 ];

@@ -411,7 +411,7 @@ const AIAdvantageSection = () => {
                   借助AI改变传统开发交付模式，缩短30%的工期，前端样式及交互也有了一定提升。
                 </p>
                 <div className="h-auto min-h-[300px] bg-white rounded-2xl border border-slate-200 flex flex-col items-center justify-center p-6 mt-auto">
-                    <ResultPlaceholder label="旅居智能体交互" images={[{ src: "/image/7-7.png", type: "pc", caption: "旅居智能体演示" }]} />
+                    <ResultPlaceholder label="旅居智能体交互" images={[{ src: "image/7-7.png", type: "pc", caption: "旅居智能体演示" }]} />
                 </div>
               </div>
             </div>
@@ -424,7 +424,7 @@ const AIAdvantageSection = () => {
                   独立完成调研-设计-汇报，并通过AI进行页面级展示。
                 </p>
                 <div className="h-auto min-h-[300px] bg-white rounded-2xl border border-slate-200 flex flex-col items-center justify-center p-6 mt-auto">
-                    <ResultPlaceholder label="旅行社智能体演示" images={[{ src: "/image/7-8.png", type: "pc", caption: "旅行社智能体演示" }]} />
+                    <ResultPlaceholder label="旅行社智能体演示" images={[{ src: "image/7-8.png", type: "pc", caption: "旅行社智能体演示" }]} />
                 </div>
               </div>
             </div>
@@ -444,12 +444,12 @@ const AIAdvantageSection = () => {
             >
                <div className="grid grid-cols-2 gap-4 h-full">
                   {[
-                    { src: "/image/7-1.png", title: "SCENE 1" },
-                    { src: "/image/7-2.png", title: "SCENE 2" },
-                    { src: "/image/7-3.png", title: "SCENE 3" },
-                    { src: "/image/7-4.png", title: "SCENE 4" },
-                    { src: "/image/7-5.png", title: "SCENE 5" },
-                    { src: "/image/7-6.png", title: "SCENE 6" }
+                    { src: "image/7-1.png", title: "SCENE 1" },
+                    { src: "image/7-2.png", title: "SCENE 2" },
+                    { src: "image/7-3.png", title: "SCENE 3" },
+                    { src: "image/7-4.png", title: "SCENE 4" },
+                    { src: "image/7-5.png", title: "SCENE 5" },
+                    { src: "image/7-6.png", title: "SCENE 6" }
                   ].map((item, i) => (
                     <div key={i} className="bg-white rounded-xl border border-dashed border-slate-200 p-2 flex flex-col items-center justify-center min-h-[160px] overflow-hidden relative transition-transform duration-300 group-hover/panel:scale-[1.02]">
                       <img src={item.src} alt={item.title} className="absolute inset-0 w-full h-full object-cover" />
@@ -517,12 +517,12 @@ const AIAdvantageSection = () => {
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" onClick={(e) => e.stopPropagation()}>
               {[
-                { src: "/image/7-1.png", title: "汇报封面设计" },
-                { src: "/image/7-2.png", title: "核心数据展示" },
-                { src: "/image/7-3.png", title: "项目流程图解" },
-                { src: "/image/7-4.png", title: "用户画像分析" },
-                { src: "/image/7-5.png", title: "竞品对比分析" },
-                { src: "/image/7-6.png", title: "未来规划展望" }
+                { src: "image/7-1.png", title: "汇报封面设计" },
+                { src: "image/7-2.png", title: "核心数据展示" },
+                { src: "image/7-3.png", title: "项目流程图解" },
+                { src: "image/7-4.png", title: "用户画像分析" },
+                { src: "image/7-5.png", title: "竞品对比分析" },
+                { src: "image/7-6.png", title: "未来规划展望" }
               ].map((item, i) => (
                 <div key={i} className="bg-white rounded-xl overflow-hidden shadow-2xl">
                   <img src={item.src} alt={item.title} className="w-full h-auto object-cover" />
